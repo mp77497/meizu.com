@@ -1,0 +1,396 @@
+.clear {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+
+/******************************/
+#content {
+    position: relative;
+
+    /************header***************/
+    .header {
+        height: auto;
+        padding-top: 28px;
+        padding-bottom: 40px;
+        margin: 0 auto;
+        position: relative;
+        max-width: 1200px;
+
+        .mz-logo {
+            float: left;
+            height: 20px;
+            width: 110px;
+            overflow: hidden;
+            display: block;
+
+            >i {
+                width: 100%;
+                height: 100%;
+                display: block;
+                background: url(../images/sing/base.png)-2px -4px no-repeat;
+            }
+        }
+    }
+
+    /*************main******************/
+    .ban-box {
+        position: relative;
+        overflow: hidden;
+        min-height: 750px;
+        max-height: 1080px;
+        background: linear-gradient(to bottom, #101012, #1A1A1C, #151517);
+        background: #f8fcff;
+        background: linear-gradient(to bottom, #f8fcff, #f8fcff, #f8fcff);
+        background: linear-gradient(180deg, #edfcfd 0%, #faffff 100%);
+
+        .bg-box {
+            position: relative;
+            width: 1240px;
+            height: 750px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+    }
+
+    .ban-box:before {
+        position: absolute;
+        content: ' ';
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        min-width: 1240px;
+        max-width: 1920px;
+        background: url(../images/sing/pic-flyme.png) no-repeat;
+        background-position: 50% 50%;
+    }
+
+    .main-form {
+        width: 298px;
+        position: absolute;
+        top: 17%;
+        right: 14%;
+        background-color: #FFF;
+        padding: 35px 35px 10px;
+        border-radius: 2px;
+        box-shadow: 0 6px 12px 0 rgba(138, 153, 150, 0.15);
+
+        .tab-title {
+            font-size: 18px;
+            margin-bottom: 50px;
+            // margin-top: 35px;
+            width: 300px;
+            text-align: center;
+
+            .fg {
+                color: #B3ABAB;
+                display: inline-block;
+                border: 2px solid #B3ABAB;
+                border-left: 1px;
+                height: 10px;
+                line-height: 20px;
+                margin-right: 32px;
+                margin-left: 32px;
+            }
+
+            .zh {
+                color: #000000;
+            }
+
+            .ewm {
+                color: #7f7f7f;
+            }
+        }
+
+        .tip-box {
+            position: relative;
+            height: 33px;
+            display: table;
+            width: 100%;
+            margin-bottom: 4px;
+            margin-top: 4px;
+            border: solid 1px #ffc2b3;
+            background: #ffd1ca;
+            border-radius: 2px;
+
+            // visibility: hidden;
+            display: none;
+            >i {
+                background: url(../images/sing/error.png);
+                width: 16px;
+                height: 16px;
+                display: inline-block;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                vertical-align: middle;
+            }
+
+            >span {
+                color: #666;
+                font-size: 12px;
+                padding-left: 35px;
+                padding-right: 25px;
+                display: table-cell;
+                vertical-align: middle;
+            }
+        }
+
+        .cycode-box {
+            margin-bottom: 20px !important;
+            width: 276px;
+            position: relative;
+            padding: 0px 10px;
+            height: 46px;
+            line-height: 22px;
+            font-size: 14px;
+            margin-bottom: 26px;
+            border: 1px solid #dadada;
+            outline: none;
+            color: #474747;
+            zoom: 1;
+            overflow: hidden;
+
+            input {
+                font-size: 14px;
+                width: 94%;
+                height: 46px;
+                line-height: 22px;
+                line-height: 0px;
+                line-height: 50px\0;
+            }
+
+            .ipt {
+                vertical-align: middle;
+                font-size: 14px;
+                margin-bottom: 0 !important;
+                border: none;
+            }
+        }
+
+        .field {
+            margin-bottom: 25px;
+            height: 24px;
+            line-height: 20px;
+
+            label {
+                margin-right: 7px;
+                cursor: pointer;
+                font-size: 14px;
+                color: #7f7f7f;
+
+            }
+
+            .ic {
+                display: inline-block;
+                width: 25px;
+                height: 20px;
+                overflow: hidden;
+                vertical-align: middle;
+                background: url(../images/sing/elements.png);
+                background-position: -0px -127px;
+
+            }
+        }
+
+        .blue {
+            width: 300px;
+            display: block;
+            height: 46px;
+            font-size: 14px;
+            line-height: 46px;
+            text-align: center;
+            margin-bottom: 10px;
+
+            outline: none;
+            cursor: pointer;
+            background-color: #32a5e7;
+            color: #fff;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: #3058df;
+            }
+        }
+
+        .tran {
+            margin-bottom: 5px;
+
+            .wj {
+                float: right;
+                color: #32a5e7;
+                font-size: 14px;
+            }
+
+            .zche {
+                float: left;
+                color: #32a5e7;
+                font-size: 14px;
+            }
+        }
+
+        .rq-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 35px;
+            height: 35px;
+            background: url(../images/sing/phone.png) no-repeat center;
+            cursor: pointer;
+        }
+
+    }
+}
+
+#footer {
+
+    position: static;
+    border-color: transparent !important;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    border-top: solid 1px #E5E6E7;
+    color: black;
+
+    .ft-in {
+        width: 1000px;
+        margin: 24px auto 30px;
+
+        .ft-lay {
+            height: 50px;
+            line-height: 50px;
+
+            .ft-ink {
+                float: left;
+                font-size: 14px;
+
+                >a {
+                    color: black;
+                }
+
+                >img {
+                    background-color: #888;
+                    margin: 0px 5px;
+                    width: 1px;
+                    height: 10px;
+                }
+            }
+
+            .ft-vice {
+                float: left;
+                margin-left: 36px;
+                font-size: 14px;
+
+                .v1 {
+                    margin-right: 10px;
+                }
+
+                .v2 {
+                    margin-right: 20px;
+                }
+
+                >a {
+                    display: inline-block;
+                    height: 20px;
+                    line-height: 18px;
+                    width: 64px;
+                    color: white;
+                    background-color: #32a5e7;
+                    text-align: center;
+
+                }
+            }
+
+            .ft-out {
+                position: relative;
+                float: right;
+                padding-top: 9px;
+
+                >a {
+                    margin-left: 10px;
+                    display: inline-block;
+                    overflow: hidden;
+                    width: 32px;
+                    height: 32px;
+
+                    i {
+                        display: inline-block;
+                        width: 100%;
+                        height: 100%;
+                        overflow: hidden;
+                    }
+
+                    .d-1 {
+
+                        background: url(../images/sing/base.png) no-repeat;
+                        background-position: -218px -91px;
+
+                        &:hover {
+                            background-position: -218px -137px;
+                        }
+                    }
+
+                    .d-2 {
+                        background: url(../images/sing/base.png) no-repeat;
+                        background-position: -302px -91px;
+
+                        &:hover {
+                            background-position: -302px -137px;
+                            ;
+                        }
+                    }
+
+                    .d-3 {
+                        background: url(../images/sing/base.png) no-repeat;
+                        background-position: -344px -91px;
+
+                        &:hover {
+                            background-position: -344px -137px;
+                            ;
+                        }
+                    }
+
+                }
+
+
+            }
+        }
+
+        .ft-right {
+            width: 100%;
+
+            .rt-in {
+                width: 1000px;
+                margin: 0px auto;
+
+                span {
+                    color: #7f7f7f;
+                    float: left;
+                }
+
+                >a {
+                    color: #7f7f7f;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+
+                .gan {
+                    background: url(../images/sing/ghs.png) no-repeat;
+                    background-size: 15px 14px;
+                    padding-left: 18px;
+                    background-position-y: center;
+                }
+            }
+        }
+    }
+}

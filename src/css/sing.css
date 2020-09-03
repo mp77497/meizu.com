@@ -1,0 +1,328 @@
+.clear {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/******************************/
+#content {
+  position: relative;
+  /************header***************/
+  /*************main******************/
+}
+#content .header {
+  height: auto;
+  padding-top: 28px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 1200px;
+}
+#content .header .mz-logo {
+  float: left;
+  height: 20px;
+  width: 110px;
+  overflow: hidden;
+  display: block;
+}
+#content .header .mz-logo > i {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url(../images/sing/base.png) -2px -4px no-repeat;
+}
+#content .ban-box {
+  position: relative;
+  overflow: hidden;
+  min-height: 750px;
+  max-height: 1080px;
+  background: linear-gradient(to bottom, #101012, #1A1A1C, #151517);
+  background: #f8fcff;
+  background: linear-gradient(to bottom, #f8fcff, #f8fcff, #f8fcff);
+  background: linear-gradient(180deg, #edfcfd 0%, #faffff 100%);
+}
+#content .ban-box .bg-box {
+  position: relative;
+  width: 1240px;
+  height: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#content .ban-box:before {
+  position: absolute;
+  content: ' ';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  min-width: 1240px;
+  max-width: 1920px;
+  background: url(../images/sing/pic-flyme.png) no-repeat;
+  background-position: 50% 50%;
+}
+#content .main-form {
+  width: 298px;
+  position: absolute;
+  top: 17%;
+  right: 14%;
+  background-color: #FFF;
+  padding: 35px 35px 10px;
+  border-radius: 2px;
+  box-shadow: 0 6px 12px 0 rgba(138, 153, 150, 0.15);
+}
+#content .main-form .tab-title {
+  font-size: 18px;
+  margin-bottom: 50px;
+  width: 300px;
+  text-align: center;
+}
+#content .main-form .tab-title .fg {
+  color: #B3ABAB;
+  display: inline-block;
+  border: 2px solid #B3ABAB;
+  border-left: 1px;
+  height: 10px;
+  line-height: 20px;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+#content .main-form .tab-title .zh {
+  color: #000000;
+}
+#content .main-form .tab-title .ewm {
+  color: #7f7f7f;
+}
+#content .main-form .tip-box {
+  position: relative;
+  height: 33px;
+  display: table;
+  width: 100%;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  border: solid 1px #ffc2b3;
+  background: #ffd1ca;
+  border-radius: 2px;
+  display: none;
+}
+#content .main-form .tip-box > i {
+  background: url(../images/sing/error.png);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  vertical-align: middle;
+}
+#content .main-form .tip-box > span {
+  color: #666;
+  font-size: 12px;
+  padding-left: 35px;
+  padding-right: 25px;
+  display: table-cell;
+  vertical-align: middle;
+}
+#content .main-form .cycode-box {
+  margin-bottom: 20px !important;
+  width: 276px;
+  position: relative;
+  padding: 0px 10px;
+  height: 46px;
+  line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 26px;
+  border: 1px solid #dadada;
+  outline: none;
+  color: #474747;
+  zoom: 1;
+  overflow: hidden;
+}
+#content .main-form .cycode-box input {
+  font-size: 14px;
+  width: 94%;
+  height: 46px;
+  line-height: 22px;
+  line-height: 0px;
+  line-height: 50px\0;
+}
+#content .main-form .cycode-box .ipt {
+  vertical-align: middle;
+  font-size: 14px;
+  margin-bottom: 0 !important;
+  border: none;
+}
+#content .main-form .field {
+  margin-bottom: 25px;
+  height: 24px;
+  line-height: 20px;
+}
+#content .main-form .field label {
+  margin-right: 7px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #7f7f7f;
+}
+#content .main-form .field .ic {
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  overflow: hidden;
+  vertical-align: middle;
+  background: url(../images/sing/elements.png);
+  background-position: 0px -127px;
+}
+#content .main-form .blue {
+  width: 300px;
+  display: block;
+  height: 46px;
+  font-size: 14px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 10px;
+  outline: none;
+  cursor: pointer;
+  background-color: #32a5e7;
+  color: #fff;
+  border-radius: 4px;
+}
+#content .main-form .blue:hover {
+  background-color: #3058df;
+}
+#content .main-form .tran {
+  margin-bottom: 5px;
+}
+#content .main-form .tran .wj {
+  float: right;
+  color: #32a5e7;
+  font-size: 14px;
+}
+#content .main-form .tran .zche {
+  float: left;
+  color: #32a5e7;
+  font-size: 14px;
+}
+#content .main-form .rq-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  background: url(../images/sing/phone.png) no-repeat center;
+  cursor: pointer;
+}
+#footer {
+  position: static;
+  border-color: transparent !important;
+  bottom: 0;
+  width: 100%;
+  height: 130px;
+  border-top: solid 1px #E5E6E7;
+  color: black;
+}
+#footer .ft-in {
+  width: 1000px;
+  margin: 24px auto 30px;
+}
+#footer .ft-in .ft-lay {
+  height: 50px;
+  line-height: 50px;
+}
+#footer .ft-in .ft-lay .ft-ink {
+  float: left;
+  font-size: 14px;
+}
+#footer .ft-in .ft-lay .ft-ink > a {
+  color: black;
+}
+#footer .ft-in .ft-lay .ft-ink > img {
+  background-color: #888;
+  margin: 0px 5px;
+  width: 1px;
+  height: 10px;
+}
+#footer .ft-in .ft-lay .ft-vice {
+  float: left;
+  margin-left: 36px;
+  font-size: 14px;
+}
+#footer .ft-in .ft-lay .ft-vice .v1 {
+  margin-right: 10px;
+}
+#footer .ft-in .ft-lay .ft-vice .v2 {
+  margin-right: 20px;
+}
+#footer .ft-in .ft-lay .ft-vice > a {
+  display: inline-block;
+  height: 20px;
+  line-height: 18px;
+  width: 64px;
+  color: white;
+  background-color: #32a5e7;
+  text-align: center;
+}
+#footer .ft-in .ft-lay .ft-out {
+  position: relative;
+  float: right;
+  padding-top: 9px;
+}
+#footer .ft-in .ft-lay .ft-out > a {
+  margin-left: 10px;
+  display: inline-block;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+}
+#footer .ft-in .ft-lay .ft-out > a i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#footer .ft-in .ft-lay .ft-out > a .d-1 {
+  background: url(../images/sing/base.png) no-repeat;
+  background-position: -218px -91px;
+}
+#footer .ft-in .ft-lay .ft-out > a .d-1:hover {
+  background-position: -218px -137px;
+}
+#footer .ft-in .ft-lay .ft-out > a .d-2 {
+  background: url(../images/sing/base.png) no-repeat;
+  background-position: -302px -91px;
+}
+#footer .ft-in .ft-lay .ft-out > a .d-2:hover {
+  background-position: -302px -137px;
+}
+#footer .ft-in .ft-lay .ft-out > a .d-3 {
+  background: url(../images/sing/base.png) no-repeat;
+  background-position: -344px -91px;
+}
+#footer .ft-in .ft-lay .ft-out > a .d-3:hover {
+  background-position: -344px -137px;
+}
+#footer .ft-in .ft-right {
+  width: 100%;
+}
+#footer .ft-in .ft-right .rt-in {
+  width: 1000px;
+  margin: 0px auto;
+}
+#footer .ft-in .ft-right .rt-in span {
+  color: #7f7f7f;
+  float: left;
+}
+#footer .ft-in .ft-right .rt-in > a {
+  color: #7f7f7f;
+}
+#footer .ft-in .ft-right .rt-in > a:hover {
+  color: black;
+}
+#footer .ft-in .ft-right .rt-in .gan {
+  background: url(../images/sing/ghs.png) no-repeat;
+  background-size: 15px 14px;
+  padding-left: 18px;
+  background-position-y: center;
+}
